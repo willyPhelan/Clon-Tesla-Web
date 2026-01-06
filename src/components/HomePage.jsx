@@ -1,7 +1,15 @@
+import Header from "./header/Header"
+
 export default function HomePage() {
 
     return (
 
-        <h1> Home Page </h1> 
+        <>
+       
+               <Header />
+       
+               <h1> Home Page </h1>
+       
+         </>
            
     ) } ; 

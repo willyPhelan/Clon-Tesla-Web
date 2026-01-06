@@ -6,9 +6,9 @@ export default function CyberTruck() {
 
         <>
 
-        <Header />
+         <Header/>
 
-        <h1> Cybertruck Page </h1>
+         <h1> Cybertruck Page </h1>
 
         </>
 

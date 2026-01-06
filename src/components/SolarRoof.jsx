@@ -1,6 +1,6 @@
 import Header from "./header/Header"
 
-export default function ModelS() {
+export default function SolarRoof() {
 
     return (
 
@@ -8,8 +8,8 @@ export default function ModelS() {
         
                 <Header />
         
-                <h1> Model S Page </h1>
+                <h1> Solar Roof </h1>
         
-                </>
+        </>
            
     ) } ;

@@ -1,7 +1,15 @@
+import Header from "./header/Header"
+
 export default function ModelX() {
 
     return (   
 
-        <h1> Model X Page </h1>
+         <>
+        
+                <Header/>
+        
+                <h1> Model X Page </h1>
+        
+         </>
            
     ) } ;  

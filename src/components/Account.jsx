@@ -1,6 +1,6 @@
 import Header from "./header/Header"
 
-export default function ModelS() {
+export default function Account() {
 
     return (
 
@@ -8,7 +8,7 @@ export default function ModelS() {
         
                 <Header />
         
-                <h1> Model S Page </h1>
+                <h1> Account </h1>
         
                 </>
            
