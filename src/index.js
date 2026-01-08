@@ -13,32 +13,33 @@ import SolarPanels from './components/SolarPanels';
 import Powerwall from './components/Powerwall';
 import Shop from './components/Shop';
 import Account from './components/Account';
+import App from './App' ;
 
 
 
 const router = createBrowserRouter([
   
-  { path: "/", element: <HomePage /> , } , 
+  { path: "/", element: <App> <HomePage /> </App> , } , 
 
-  { path: "/model_s", element: <ModelS/> , } ,
+  { path: "/model_s", element: <App> <ModelS/> </App> , } ,
 
-  { path: "/model_x", element: <ModelX/> , } ,
+  { path: "/model_x", element:  <App> <ModelX/>  </App>, } ,
 
-  { path: "/model_Y", element: <ModelY/>  } ,
+  { path: "/model_Y", element:  <App> <ModelY/> </App>   } ,
 
-  { path: "/model_3", element: <Model3/>  } ,
+  { path: "/model_3", element: <App> <Model3/> </App>  } ,
 
-  { path: "/cybertruck", element: <CyberTruck/> , } ,
+  { path: "/cybertruck", element:  <App> <CyberTruck/> </App> , } ,
 
-  { path: "/solar_roof", element: <SolarRoof/> , } ,
+  { path: "/solar_roof", element: <App>  <SolarRoof/> </App> , } ,
 
-  { path: "/solar_panels", element: <SolarPanels/> , } ,
+  { path: "/solar_panels", element:  <App>  <SolarPanels/> </App> , } ,
 
-  { path: "/powerwall", element: <Powerwall/> , } ,
+  { path: "/powerwall", element:  <App> <Powerwall/>  </App> , } ,
 
-  { path: "/shop", element: <Shop/> , } ,
+  { path: "/shop", element: <App>  <Shop/>  </App>  , } ,
 
-  { path: "/account", element: <Account/>  } ,
+  { path: "/account", element:  <App>  <Account/>  </App>  } ,
 
 
 ])

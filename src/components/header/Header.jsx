@@ -1,8 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import './Header.css' ;
-import Sidebar from "../sidebar/Sidebar";
-import { useState } from "react" ;
-import Backdrop from "../backdrop/Backdrop";
 
 export const navElements = [
 
@@ -21,27 +18,15 @@ export const navElements = [
 
 ] ; 
 
-export default function Header() {
+export default function Header({setShowSidebar}) {
 
     const navigate = useNavigate() ;
 
-    const [showSidebar, setShowSidebar] = useState(false) ;
+  
 
     return (
 
         <>
-
-        { showSidebar && (
-
-            <>
-
-            <Backdrop onClick={ () => setShowSidebar(false) } />
-            <Sidebar setShowSidebar={setShowSidebar}/>
-
-            </>
-         )}
-
-        
 
         <nav> 
 

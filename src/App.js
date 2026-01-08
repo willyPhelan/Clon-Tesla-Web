@@ -1,14 +1,31 @@
+import { Children, useState } from "react";
+import Header from "./components/header/Header";
+import Sidebar from "./components/sidebar/Sidebar";
+import Backdrop from "./components/backdrop/Backdrop";
 
+function App({children}) {
 
-function App() {
+    const [showSidebar, setShowSidebar] = useState(false) ;
 
   return (
 
-    <div>
+   <>
 
-      <h1> Welcome to My React App </h1>
+      <Header setShowSidebar={setShowSidebar}/>
+    
+     { showSidebar && (
+   
+               <>
+   
+               <Backdrop onClick={ () => setShowSidebar(false) } />
 
-    </div>
+               <Sidebar setShowSidebar={setShowSidebar}/>
+   
+               </>
+            )}
+
+
+   </>
   
 ) ;
 
