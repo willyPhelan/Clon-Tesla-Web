@@ -1,4 +1,4 @@
-import { Children, useState } from "react";
+import { useState } from "react";
 import Header from "./components/header/Header";
 import Sidebar from "./components/sidebar/Sidebar";
 import Backdrop from "./components/backdrop/Backdrop";
@@ -11,7 +11,7 @@ function App({children}) {
 
    <>
 
-      <Header setShowSidebar={setShowSidebar}/>
+     
     
      { showSidebar && (
    
@@ -23,6 +23,14 @@ function App({children}) {
    
                </>
             )}
+
+            <main className={showSidebar ? 'blur-content' : ''}>
+
+              <Header setShowSidebar={setShowSidebar} /> 
+
+              {children}
+
+            </main>
 
 
    </>

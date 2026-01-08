@@ -2,17 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider, } from "react-router-dom" ;
-import HomePage from './components/HomePage';
-import ModelS from './components/ModelS';
-import ModelX from './components/Modelx';
-import ModelY from './components/ModelY';
-import Model3 from './components/Model3';
-import CyberTruck from './components/CyberTruck';
-import SolarRoof from './components/SolarRoof';
-import SolarPanels from './components/SolarPanels';
-import Powerwall from './components/Powerwall';
-import Shop from './components/Shop';
-import Account from './components/Account';
+import HomePage from './components/pages/HomePage';
+import ModelS from './components/pages/ModelS';
+import ModelX from './components/pages/Modelx';
+import ModelY from './components/pages/ModelY';
+import Model3 from './components/pages/Model3';
+import CyberTruck from './components/pages/CyberTruck';
+import SolarRoof from './components/pages/SolarRoof';
+import SolarPanels from './components/pages/SolarPanels';
+import Powerwall from './components/pages/Powerwall';
+import Shop from './components/pages/Shop';
+import Account from './components/pages/Account';
 import App from './App' ;
 
 
