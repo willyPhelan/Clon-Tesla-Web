@@ -1,6 +1,6 @@
-import VideoSection from "../videoSection/VideoSection";
-
-
+import VideoSection from "../videoSection/VideoSection" ;
+import ImagBack from "../imageBack/ImagBack";
+import modelS from "../../assets/Tesla-Pic-1.jpg" ;
 
 export default function HomePage() {
 
@@ -9,6 +9,8 @@ export default function HomePage() {
        <>
         
         <VideoSection/>
+
+        <ImagBack header="Model S" descriptio="View inventory" backgroundImage={modelS} />
        
       </>
            

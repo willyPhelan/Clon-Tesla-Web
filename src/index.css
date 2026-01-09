@@ -1,6 +1,6 @@
 :root {
 
-  --hover-background: rgb(242, 242, 242) ; 
+  --hover-background: rgba(179, 179, 179, 0.2 ) ; 
 
 }
 
@@ -11,9 +11,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden ;
+  overflow-y: auto ;
+  color: white ;
 }
 
 code {
+  
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }

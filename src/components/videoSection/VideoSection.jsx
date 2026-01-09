@@ -5,9 +5,9 @@ export default function HomeSectionVideo() {
 
     return (
 
-        <div  className='video-background'>
+        <div>
 
-            <video autoPlay muted loop>
+            <video className='video-background' autoPlay muted loop>
 
              <source src={teslaVid} type="video/mp4" />       
 
@@ -15,15 +15,17 @@ export default function HomeSectionVideo() {
 
         <div className='overlay'>
 
-            <div className='top-section'>
+            <div>
 
-             <h1> Top Section </h1>
+             <h1> Experience Tesla </h1>
+
+             <h5> Schedule your test drive today </h5>
 
            </div>
 
-           <div className='bottom-section'> 
+           <div> 
 
-             <h1> Bottom Section </h1>
+             <button> Demo Drime </button>
 
            </div>
 
