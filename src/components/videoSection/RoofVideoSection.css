@@ -1,0 +1,43 @@
+.video-background-r {
+
+    position: relative;
+    right: 0 ;
+    bottom: 0 ; 
+    min-width: 100vw ;
+    min-height: 100vh;
+    z-index: -1 ;
+    object-fit: cover ;
+}
+
+.overlay-r { 
+
+   display:  flex ;
+   flex-direction: column ;
+   justify-content: space-around ;
+   align-items: center ;
+   width: 100vw ;
+   height: 100vh;
+   text-align: center ;
+
+}
+
+.overlay-r button { 
+
+    background: none ;
+    border: 1px solid white ; 
+    border-radius:  5px ;
+    font-size: 15px ;
+    cursor:  pointer ;
+    padding:  10px 40px ;
+    color: white ;
+}
+
+.overlay-r button:hover { 
+
+    background: white ;
+    color:  black ;
+    transition: all 0.3s ;
+
+
+
+}

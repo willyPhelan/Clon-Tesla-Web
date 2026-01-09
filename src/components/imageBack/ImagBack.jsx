@@ -4,7 +4,7 @@ export default function ImgBack({backgroundImage, header, description}){
 
     return (
 
-        <div className='image-background' style={{backgroundImage: backgroundImage}}> 
+        <div className='image-background' style={{backgroundImage: `url(${backgroundImage})`}}> 
 
             <div className='overlay'>
             
@@ -18,9 +18,9 @@ export default function ImgBack({backgroundImage, header, description}){
 
                 <div className='bottom-section'>
 
-                    <button> Button 1 </button>
+                    <button> Order Now </button>
 
-                    <button> Button 2 </button>
+                    <button> Demo Drive </button>
 
 
                 </div>

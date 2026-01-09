@@ -4,6 +4,7 @@ nav .headerList {
     display: flex ;
     justify-content: center ;
     padding: 10px ; 
+    color: rgba(149, 149, 149, 0.8) ;
 }
 
 nav .headerList li {

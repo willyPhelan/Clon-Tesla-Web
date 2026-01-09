@@ -25,7 +25,7 @@ export default function HomeSectionVideo() {
 
            <div> 
 
-             <button> Demo Drime </button>
+             <button> Demo Drive </button>
 
            </div>
 
