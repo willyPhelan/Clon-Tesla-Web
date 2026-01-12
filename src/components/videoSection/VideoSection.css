@@ -41,3 +41,23 @@
 
 
 }
+
+
+.section-container {
+
+    position: relative ;
+    width: 100vw ;
+    height: 100vh ;
+    overflow: hidden ;
+}
+
+.overlay, .overlay-r {
+    position: relative;
+    z-index: 10; /* El texto y botones siempre adelante */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px 0;
+    box-sizing: border-box;
+}

@@ -1,6 +1,6 @@
 import './ImagBack.css'
 
-export default function ImgBack({backgroundImage, header, description}){
+export default function ImgBack({backgroundImage, header, description, showDemoDrive}){
 
     return (
 
@@ -19,8 +19,8 @@ export default function ImgBack({backgroundImage, header, description}){
                 <div className='bottom-section'>
 
                     <button> Order Now </button>
-
-                    <button> Demo Drive </button>
+                   
+                    {showDemoDrive && <button> Demo Drive </button>}
 
 
                 </div>

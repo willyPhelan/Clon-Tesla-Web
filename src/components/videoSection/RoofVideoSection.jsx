@@ -1,25 +1,25 @@
 import teslaVid from '../../assets/video-Tesla-2.mp4'
 import './RoofVideoSection.css'
 
-export default function HomeSectionVideo() { 
+export default function RoofSectionVideo() { 
 
     return (
 
-        <div>
+        <div className="section-container">
 
             <video className='video-background-r' autoPlay muted loop>
 
-             <source src={teslaVid} type="video/mp4" />       
+             <source src={teslaVid} type="video/mp4" />   
+
+                
 
             </video>
 
         <div className='overlay-r'>
 
-            <div>
-
-             <h1> Build your own Tesla Solar Roof </h1>
-
-           </div>
+            
+            <h1> Build your own Tesla Solar Roof </h1>  
+        
 
            <div> 
 

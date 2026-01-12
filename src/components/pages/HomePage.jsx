@@ -17,15 +17,15 @@ export default function HomePage() {
         
         <VideoSection/>
 
-        <ImagBack header="Model S" description="View inventory" backgroundImage={modelS} />
+        <ImagBack header="Model S" description="View inventory" backgroundImage={modelS} showDemoDrive />
 
-        <ImagBack header="Model X" description="View inventory" backgroundImage={modelX} />
+        <ImagBack header="Model X" description="View inventory" backgroundImage={modelX} showDemoDrive />
 
-        <ImagBack header="Model Y" description="View inventory" backgroundImage={modelY} />
+        <ImagBack header="Model Y" description="View inventory" backgroundImage={modelY} showDemoDrive />
 
-        <ImagBack header="Model 3" description="View inventory" backgroundImage={model3} />
+        <ImagBack header="Model 3" description="View inventory" backgroundImage={model3} showDemoDrive />
 
-        <ImagBack header="Cybertruck" description="View inventory" backgroundImage={cyberT} />
+        <ImagBack header="Cybertruck" description="View inventory" backgroundImage={cyberT} showDemoDrive />
 
         <ImagBack header="Solar Panels" description="View inventory" backgroundImage={teslaSp} />
 

@@ -5,7 +5,7 @@ export default function HomeSectionVideo() {
 
     return (
 
-        <div>
+        <div className="section-container">
 
             <video className='video-background' autoPlay muted loop>
 
