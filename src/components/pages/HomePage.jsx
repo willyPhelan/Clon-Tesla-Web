@@ -14,22 +14,62 @@ export default function HomePage() {
     return (
 
        <>
+
+        <div className="container">
+
+
+          <section className="section">
         
-        <VideoSection/>
+           <VideoSection/>
 
-        <ImagBack header="Model S" description="View inventory" backgroundImage={modelS} showDemoDrive />
+          </section>
 
-        <ImagBack header="Model X" description="View inventory" backgroundImage={modelX} showDemoDrive />
 
-        <ImagBack header="Model Y" description="View inventory" backgroundImage={modelY} showDemoDrive />
+          <section className="section">
+
+            <ImagBack header="Model S" description="View inventory" backgroundImage={modelS} showDemoDrive />
+
+           </section>
+
+
+        <section className="section">
+
+         <ImagBack header="Model X" description="View inventory" backgroundImage={modelX} showDemoDrive />
+
+        </section>
+
+
+        <section className="section">
+
+         <ImagBack header="Model Y" description="View inventory" backgroundImage={modelY} showDemoDrive />
+
+        </section>
+
+         <section className="section">
 
         <ImagBack header="Model 3" description="View inventory" backgroundImage={model3} showDemoDrive />
 
-        <ImagBack header="Cybertruck" description="View inventory" backgroundImage={cyberT} showDemoDrive />
+        </section>
 
-        <ImagBack header="Solar Panels" description="View inventory" backgroundImage={teslaSp} />
+         <section className="section">
 
-        <RoofVideoSection/>
+          <ImagBack header="Cybertruck" description="View inventory" backgroundImage={cyberT} showDemoDrive />
+
+        </section>
+
+          <section className="section">
+
+          <ImagBack header="Solar Panels" description="View inventory" backgroundImage={teslaSp} />
+
+          </section>
+
+        <section className="section">
+
+          <RoofVideoSection/>
+
+        </section>
+
+        </div>
        
       </>
            
